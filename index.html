@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popup Share Modal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./img/favicon/ite.webmanifest" />
+    <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <button class="view-modal"><img src="./img/logo.png" alt="logo" /></button>
+    <div class="popup">
+      <header>
+        <span>Popup Home Web<img src="./img/logo.png" alt="logo" /></span>
+        <div class="close"><i class="uil uil-times"></i></div>
+      </header>
+      <div class="content">
+        <p>Réseaux Home Web</p>
+        <ul class="icons">
+          <a href="https://www.linkedin.com/in/olivier33/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/oliive33/"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/Oliive33"><i class="fab fa-github"></i></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=33675185844"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          <a href="https://goo.gl/maps/5AakKChgCGy79i8t9"><i class="fab fa-google"></i></a>
+        </ul>
+        <p>Copier lien Portfolio</p>
+        <div class="field">
+          <i class="url-icon uil uil-link"></i>
+          <input type="text" readonly value="homemade-web.com" />
+          <button>Copier</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
