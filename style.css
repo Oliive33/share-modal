@@ -189,3 +189,23 @@ header .close:hover {
 .field button:hover {
   background: #3492f0;
 }
+@media screen and (max-width: 430px) {
+  .popup {
+    max-width: 345px;
+  }
+  header span {
+    font-size: 19px;
+  }
+  .field input {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .popup {
+    max-width: 310px;
+    padding: 20px;
+  }
+  .content p {
+    font-size: 14px;
+  }
+}
